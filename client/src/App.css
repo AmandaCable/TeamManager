@@ -1,0 +1,26 @@
+
+.managerController, .playerController{
+  display: flex;
+}
+
+.playerTable {
+  text-align: left;
+}
+
+th {
+  background-color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.greenButton {
+  background: green;
+  color: white;
+}
+
+.redButton {
+  background: red;
+  color: white;
+}
